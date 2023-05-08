@@ -43,7 +43,7 @@ const TopHeader = (props: Props) => {
   }, [pathname, menus]);
   return (
     <Header
-      style={{ position: 'sticky', top: 0, zIndex: 1, padding: '0 20vw', width: '100%', backgroundColor: '#515154' }}
+      style={{ position: 'sticky', top: 0, zIndex: 1, padding: '0 15vw', width: '100%', backgroundColor: '#515154' }}
       className={styles.container}
     >
       <div

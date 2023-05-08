@@ -1,12 +1,19 @@
+$color-yellow: #f6e97f;
 .container {
   // display: flex;
   // justify-content: space-between;
   :global {
     .ant-menu-overflow-item.ant-menu-item.ant-menu-item-selected{
-      color: yellow;
+      color: $color-yellow;
     }
     .ant-menu-item-selected::after{
-      border-bottom-color: yellow !important;
+      border-bottom-color: $color-yellow !important;
+    }
+    .ant-menu-item-active {
+      color: $color-yellow !important;
+    }
+    .ant-menu-item-active::after {
+      border-bottom-color: $color-yellow!important;
     }
   }
   .logoContainer {
@@ -25,5 +32,6 @@
   .menu {
     color: #ffffff;
     background-color: #515154;
+    justify-content: space-between;
   }
 }
