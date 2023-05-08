@@ -20,19 +20,9 @@
 .layoutContainer{
   height: 100vh;
   width: 100vw;
-}
-.friendListContainer{
-  float: right;
-  width: 15vw;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  height: 75vh;
-}
-.contentMain{
-  padding: 0 50px;
-}
-.contentList{
-  padding: 0 24px;
-  height: 81vh
+  .contentMain {
+    overflow: auto;
+  }
 }
 
 

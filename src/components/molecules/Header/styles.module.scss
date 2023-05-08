@@ -1,0 +1,29 @@
+.container {
+  // display: flex;
+  // justify-content: space-between;
+  :global {
+    .ant-menu-overflow-item.ant-menu-item.ant-menu-item-selected{
+      color: yellow;
+    }
+    .ant-menu-item-selected::after{
+      border-bottom-color: yellow !important;
+    }
+  }
+  .logoContainer {
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-right: 4rem;
+    .logo{
+      height: 64px;
+      width: auto;
+      object-fit: contain;
+    }
+  }
+  .menu {
+    color: #ffffff;
+    background-color: #515154;
+  }
+}
